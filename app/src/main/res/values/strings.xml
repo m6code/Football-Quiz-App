@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Football Quiz App</string>
     <string name="ques_1">1. What does FA in FA Cup stands for</string>
-    <string name="ques_2">2. Select the two teams that played in the FA Cup 2017 finals?</string>
+    <string name="ques_2">2. Select the two teams that played in the FA Cup 2017 finals.</string>
     <string name="ques_3">3. Which of this team has the most win in the German Bundesliga?</string>
     <string name="ques_4">4. The fastest goal scored in a football match was in? </string>
     <string name="ques_5">5. How many times has Arsenal won the FA Cup?</string>
@@ -9,6 +9,8 @@
     <string name="ques_7">7. How many times has Nigeria won the World Cup? \nSelect all correct answers</string>
     <string name="ques_8">8. Man Utd stands for?</string>
     <string name="ques_9">9. In what year did Nigeria win the Olympic gold for football?</string>
+    <string name="submit">Submit All</string>
+    <string name="enter_your_answer">Enter your answer here.</string>
 
     <!--Question 1 answers Options-->
     <string name="ques_1_answer_a">A. Free Agent</string>
@@ -51,5 +53,5 @@
     <string name="ques_7_answer_a">A. 1</string>
     <string name="ques_7_answer_b">B. 3</string>
     <string name="ques_7_answer_c">C. 0</string>
-    <string name="ques_7_answer_d">D. 2(#8211)2</string>
+    <string name="ques_7_answer_d">D. 2#8211;2</string>
 </resources>

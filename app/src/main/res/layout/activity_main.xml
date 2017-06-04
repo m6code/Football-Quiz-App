@@ -77,6 +77,444 @@
                 android:text="@string/ques_1_answer_d" />
         </LinearLayout>
 
+        <!--Question 2 and Options-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/ques_2" />
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_2_answer_a" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_2_answer_b" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_2_answer_c" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_2_answer_d" />
+        </LinearLayout>
+
+        <!--Question 3 and Options-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/ques_3" />
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_3_answer_a" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_3_answer_b" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_3_answer_c" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_3_answer_d" />
+        </LinearLayout>
+
+        <!--Question 4 and Options-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/ques_4" />
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_4_answer_a" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_4_answer_b" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_4_answer_c" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_4_answer_d" />
+        </LinearLayout>
+
+        <!--Question 5 and Options-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/ques_5" />
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_5_answer_a" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_5_answer_b" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_5_answer_c" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_5_answer_d" />
+        </LinearLayout>
+
+        <!--Question 6 and Options-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/ques_6" />
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_6_answer_a" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_6_answer_b" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_6_answer_c" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_6_answer_d" />
+        </LinearLayout>
+
+        <!--Question 7 and Options-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/ques_7" />
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_7_answer_a" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_7_answer_b" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_7_answer_c" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuesOption"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ques_7_answer_d" />
+        </LinearLayout>
+
+        <!--Question 8 and Options-->
+        <LinearLayout
+           android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="@string/ques_8" />
+            <EditText
+                android:paddingLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_your_answer"/>
+        </LinearLayout>
+
+        <!--Question 9 and Options-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/ques_9" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_answer"/>
+
+        <!--The Submit button goes here-->
+        <Button
+            android:layout_marginTop="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/submit" />
 
     </LinearLayout>
 
