@@ -13,8 +13,7 @@
 
         <!--Question 1 and Options-->
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/QuestionsMain"
             android:text="@string/ques_1" />
 
         <LinearLayout
@@ -27,8 +26,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_1_answer_a" />
         </LinearLayout>
 
@@ -42,8 +40,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_1_answer_b" />
         </LinearLayout>
 
@@ -57,8 +54,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_1_answer_c" />
         </LinearLayout>
 
@@ -72,15 +68,13 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_1_answer_d" />
         </LinearLayout>
 
         <!--Question 2 and Options-->
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/QuestionsMain"
             android:paddingTop="16dp"
             android:text="@string/ques_2" />
 
@@ -94,8 +88,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_2_answer_a" />
         </LinearLayout>
 
@@ -109,8 +102,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_2_answer_b" />
         </LinearLayout>
 
@@ -124,8 +116,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_2_answer_c" />
         </LinearLayout>
 
@@ -139,15 +130,13 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_2_answer_d" />
         </LinearLayout>
 
         <!--Question 3 and Options-->
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/QuestionsMain"
             android:paddingTop="16dp"
             android:text="@string/ques_3" />
 
@@ -161,8 +150,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_3_answer_a" />
         </LinearLayout>
 
@@ -176,8 +164,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_3_answer_b" />
         </LinearLayout>
 
@@ -191,8 +178,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_3_answer_c" />
         </LinearLayout>
 
@@ -206,15 +192,13 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_3_answer_d" />
         </LinearLayout>
 
         <!--Question 4 and Options-->
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/QuestionsMain"
             android:paddingTop="16dp"
             android:text="@string/ques_4" />
 
@@ -228,8 +212,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_4_answer_a" />
         </LinearLayout>
 
@@ -243,8 +226,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_4_answer_b" />
         </LinearLayout>
 
@@ -258,8 +240,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_4_answer_c" />
         </LinearLayout>
 
@@ -273,15 +254,13 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_4_answer_d" />
         </LinearLayout>
 
         <!--Question 5 and Options-->
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/QuestionsMain"
             android:paddingTop="16dp"
             android:text="@string/ques_5" />
 
@@ -295,8 +274,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_5_answer_a" />
         </LinearLayout>
 
@@ -310,8 +288,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_5_answer_b" />
         </LinearLayout>
 
@@ -325,8 +302,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_5_answer_c" />
         </LinearLayout>
 
@@ -340,15 +316,13 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_5_answer_d" />
         </LinearLayout>
 
         <!--Question 6 and Options-->
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/QuestionsMain"
             android:paddingTop="16dp"
             android:text="@string/ques_6" />
 
@@ -362,8 +336,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_6_answer_a" />
         </LinearLayout>
 
@@ -377,8 +350,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_6_answer_b" />
         </LinearLayout>
 
@@ -392,8 +364,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_6_answer_c" />
         </LinearLayout>
 
@@ -407,15 +378,13 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_6_answer_d" />
         </LinearLayout>
 
         <!--Question 7 and Options-->
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/QuestionsMain"
             android:paddingTop="16dp"
             android:text="@string/ques_7" />
 
@@ -429,8 +398,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_7_answer_a" />
         </LinearLayout>
 
@@ -444,8 +412,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_7_answer_b" />
         </LinearLayout>
 
@@ -459,8 +426,7 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_7_answer_c" />
         </LinearLayout>
 
@@ -474,46 +440,47 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/AnswersMain"
                 android:text="@string/ques_7_answer_d" />
         </LinearLayout>
 
         <!--Question 8 and Options-->
         <LinearLayout
-           android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/QuestionsMain"
                 android:paddingTop="16dp"
                 android:text="@string/ques_8" />
+
             <EditText
-                android:paddingLeft="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="@string/enter_your_answer"/>
+                android:hint="@string/enter_your_answer"
+                android:paddingLeft="8dp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
         </LinearLayout>
 
         <!--Question 9 and Options-->
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/QuestionsMain"
             android:paddingTop="16dp"
             android:text="@string/ques_9" />
+
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/enter_your_answer"/>
+            android:hint="@string/enter_your_answer"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
 
         <!--The Submit button goes here-->
         <Button
-            android:layout_marginTop="32dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="32dp"
             android:text="@string/submit" />
 
     </LinearLayout>

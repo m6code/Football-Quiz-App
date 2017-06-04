@@ -6,7 +6,7 @@
     <string name="ques_4">4. The fastest goal scored in a football match was in? </string>
     <string name="ques_5">5. How many times has Arsenal won the FA Cup?</string>
     <string name="ques_6">6. What\'s the highest number of goals ever scored in a football match? </string>
-    <string name="ques_7">7. How many times has Nigeria won the World Cup? \nSelect all correct answers</string>
+    <string name="ques_7">7. How many times has Nigeria won the World Cup? Select all correct answers</string>
     <string name="ques_8">8. Man Utd stands for?</string>
     <string name="ques_9">9. In what year did Nigeria win the Olympic gold for football?</string>
     <string name="submit">Submit All</string>
@@ -53,5 +53,5 @@
     <string name="ques_7_answer_a">A. 1</string>
     <string name="ques_7_answer_b">B. 3</string>
     <string name="ques_7_answer_c">C. 0</string>
-    <string name="ques_7_answer_d">D. 2#8211;2</string>
+    <string name="ques_7_answer_d">D. 2&#8211;2</string>
 </resources>
