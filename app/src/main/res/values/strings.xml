@@ -11,45 +11,45 @@
     <string name="ques_9">9. In what year did Nigeria win the Olympic gold for football?</string>
 
     <!--Question 1 answers Options-->
-    <string name="ques_1_answer_a"></string>
-    <string name="ques_1_answer_b"></string>
-    <string name="ques_1_answer_c"></string>
-    <string name="ques_1_answer_d"></string>
+    <string name="ques_1_answer_a">A. Free Agent</string>
+    <string name="ques_1_answer_b">B. Football Association</string>
+    <string name="ques_1_answer_c">C. First Aid</string>
+    <string name="ques_1_answer_d">D. Football Agent</string>
 
     <!--Question 2 answers Options-->
-    <string name="ques_2_answer_a"></string>
-    <string name="ques_2_answer_b"></string>
-    <string name="ques_2_answer_c"></string>
-    <string name="ques_2_answer_d"></string>
+    <string name="ques_2_answer_a">A. Arsenal</string>
+    <string name="ques_2_answer_b">B. Manchester City</string>
+    <string name="ques_2_answer_c">C. Man Utd</string>
+    <string name="ques_2_answer_d">D. Chelsea</string>
 
 
     <!--Question 3 answers Options-->
-    <string name="ques_3_answer_a"></string>
-    <string name="ques_3_answer_b"></string>
-    <string name="ques_3_answer_c"></string>
-    <string name="ques_3_answer_d"></string>
+    <string name="ques_3_answer_a">A. Borussia Dortmund</string>
+    <string name="ques_3_answer_b">B. Werder Bremen</string>
+    <string name="ques_3_answer_c">C. FC Bayern Munich</string>
+    <string name="ques_3_answer_d">D. FC Koln</string>
 
     <!--Question 4 answers Options-->
-    <string name="ques_4_answer_a"></string>
-    <string name="ques_4_answer_b"></string>
-    <string name="ques_4_answer_c"></string>
-    <string name="ques_4_answer_d"></string>
+    <string name="ques_4_answer_a">A. 2 sec.</string>
+    <string name="ques_4_answer_b">B. 8 sec.</string>
+    <string name="ques_4_answer_c">C. 5 sec.</string>
+    <string name="ques_4_answer_d">D. 6 sec.</string>
 
     <!--Question 5 answers Options-->
-    <string name="ques_5_answer_a"></string>
-    <string name="ques_5_answer_b"></string>
-    <string name="ques_5_answer_c"></string>
-    <string name="ques_5_answer_d"></string>
+    <string name="ques_5_answer_a">A. 10</string>
+    <string name="ques_5_answer_b">B. 7</string>
+    <string name="ques_5_answer_c">C. 8</string>
+    <string name="ques_5_answer_d">D. 13</string>
 
     <!--Question 6 answers Options-->
-    <string name="ques_6_answer_a"></string>
-    <string name="ques_6_answer_b"></string>
-    <string name="ques_6_answer_c"></string>
-    <string name="ques_6_answer_d"></string>
+    <string name="ques_6_answer_a">A. 149</string>
+    <string name="ques_6_answer_b">B. 79</string>
+    <string name="ques_6_answer_c">C. 39</string>
+    <string name="ques_6_answer_d">D. 40</string>
 
     <!--Question 7 answers Options-->
-    <string name="ques_7_answer_a"></string>
-    <string name="ques_7_answer_b"></string>
-    <string name="ques_7_answer_c"></string>
-    <string name="ques_7_answer_d"></string>
+    <string name="ques_7_answer_a">A. 1</string>
+    <string name="ques_7_answer_b">B. 3</string>
+    <string name="ques_7_answer_c">C. 0</string>
+    <string name="ques_7_answer_d">D. 2(#8211)2</string>
 </resources>
