@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Football Quiz App</string>
+    <string name="ques_1">1. What does FA in FA Cup stands for</string>
+    <string name="ques_2"></string>
+    <string name="ques_3"></string>
+    <string name="ques_4"></string>
+    <string name="ques_5"></string>
+    <string name="ques_6"></string>
+    <string name="ques_7"></string>
+    <string name="ques_8"></string>
+
+    <!--Question 1 answers Options-->
+    <string name="ques_1_answer_a"></string>
+    <string name="ques_1_answer_b"></string>
+    <string name="ques_1_answer_c"></string>
+    <string name="ques_1_answer_d"></string>
+
+    <!--Question 2 answers Options-->
+    <string name="ques_2_answer_a"></string>
+    <string name="ques_2_answer_b"></string>
+    <string name="ques_2_answer_c"></string>
+    <string name="ques_2_answer_d"></string>
+
+
+    <!--Question 3 answers Options-->
+    <string name="ques_3_answer_a"></string>
+    <string name="ques_3_answer_b"></string>
+    <string name="ques_3_answer_c"></string>
+    <string name="ques_3_answer_d"></string>
+
+    <!--Question 4 answers Options-->
+    <string name="ques_4_answer_a"></string>
+    <string name="ques_4_answer_b"></string>
+    <string name="ques_4_answer_c"></string>
+    <string name="ques_4_answer_d"></string>
+
+    <!--Question 5 answers Options-->
+    <string name="ques_5_answer_a"></string>
+    <string name="ques_5_answer_b"></string>
+    <string name="ques_5_answer_c"></string>
+    <string name="ques_5_answer_d"></string>
+
+    <!--Question 6 answers Options-->
+    <string name="ques_6_answer_a"></string>
+    <string name="ques_6_answer_b"></string>
+    <string name="ques_6_answer_c"></string>
+    <string name="ques_6_answer_d"></string>
+</resources>
