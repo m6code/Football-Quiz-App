@@ -22,10 +22,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_1_answer_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_1_answer_a"
                 style="@style/AnswersMain"
                 android:text="@string/ques_1_answer_a" />
         </LinearLayout>
@@ -36,10 +38,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_1_answer_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_1_answer_b"
                 style="@style/AnswersMain"
                 android:text="@string/ques_1_answer_b" />
         </LinearLayout>
@@ -50,10 +54,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_1_answer_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_1_answer_c"
                 style="@style/AnswersMain"
                 android:text="@string/ques_1_answer_c" />
         </LinearLayout>
@@ -65,9 +71,11 @@
 
             <RadioButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:id="@+id/rb_ques_1_answer_d"/>
 
             <TextView
+                android:id="@+id/tv_ques_1_answer_d"
                 style="@style/AnswersMain"
                 android:text="@string/ques_1_answer_d" />
         </LinearLayout>
@@ -84,10 +92,12 @@
             android:paddingStart="8dp">
 
             <CheckBox
+                android:id="@+id/cb_ques_2_answer_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_2_answer_a"
                 style="@style/AnswersMain"
                 android:text="@string/ques_2_answer_a" />
         </LinearLayout>
@@ -98,10 +108,12 @@
             android:paddingStart="8dp">
 
             <CheckBox
+                android:id="@+id/cb_ques_2_answer_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_2_answer_b"
                 style="@style/AnswersMain"
                 android:text="@string/ques_2_answer_b" />
         </LinearLayout>
@@ -112,10 +124,12 @@
             android:paddingStart="8dp">
 
             <CheckBox
+                android:id="@+id/cb_ques_2_answer_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_2_answer_c"
                 style="@style/AnswersMain"
                 android:text="@string/ques_2_answer_c" />
         </LinearLayout>
@@ -127,9 +141,11 @@
 
             <CheckBox
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:id="@+id/cb_ques_2_answer_d"/>
 
             <TextView
+                android:id="@+id/tv_ques_2_answer_d"
                 style="@style/AnswersMain"
                 android:text="@string/ques_2_answer_d" />
         </LinearLayout>
@@ -147,9 +163,11 @@
 
             <RadioButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:id="@+id/rb_ques_3_answer_a"/>
 
             <TextView
+                android:id="@+id/tv_ques_3_answer_a"
                 style="@style/AnswersMain"
                 android:text="@string/ques_3_answer_a" />
         </LinearLayout>
@@ -160,10 +178,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_3_answer_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_3_answer_b"
                 style="@style/AnswersMain"
                 android:text="@string/ques_3_answer_b" />
         </LinearLayout>
@@ -174,10 +194,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_3_answer_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_3_answer_c"
                 style="@style/AnswersMain"
                 android:text="@string/ques_3_answer_c" />
         </LinearLayout>
@@ -188,10 +210,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_3_answer_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_3_answer_d"
                 style="@style/AnswersMain"
                 android:text="@string/ques_3_answer_d" />
         </LinearLayout>
@@ -208,10 +232,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_4_answer_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_4_answer_a"
                 style="@style/AnswersMain"
                 android:text="@string/ques_4_answer_a" />
         </LinearLayout>
@@ -222,10 +248,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_4_answer_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_4_answer_b"
                 style="@style/AnswersMain"
                 android:text="@string/ques_4_answer_b" />
         </LinearLayout>
@@ -236,10 +264,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_4_answer_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_4_answer_c"
                 style="@style/AnswersMain"
                 android:text="@string/ques_4_answer_c" />
         </LinearLayout>
@@ -250,10 +280,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_4_answer_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_4_answer_d"
                 style="@style/AnswersMain"
                 android:text="@string/ques_4_answer_d" />
         </LinearLayout>
@@ -270,10 +302,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_5_answer_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_5_answer_a"
                 style="@style/AnswersMain"
                 android:text="@string/ques_5_answer_a" />
         </LinearLayout>
@@ -284,10 +318,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_5_answer_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_5_answer_b"
                 style="@style/AnswersMain"
                 android:text="@string/ques_5_answer_b" />
         </LinearLayout>
@@ -298,10 +334,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_5_answer_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_5_answer_c"
                 style="@style/AnswersMain"
                 android:text="@string/ques_5_answer_c" />
         </LinearLayout>
@@ -312,10 +350,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_5_answer_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_5_answer_d"
                 style="@style/AnswersMain"
                 android:text="@string/ques_5_answer_d" />
         </LinearLayout>
@@ -332,10 +372,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_6_answer_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_6_answer_a"
                 style="@style/AnswersMain"
                 android:text="@string/ques_6_answer_a" />
         </LinearLayout>
@@ -346,10 +388,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_6_answer_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_6_answer_b"
                 style="@style/AnswersMain"
                 android:text="@string/ques_6_answer_b" />
         </LinearLayout>
@@ -360,10 +404,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_6_answer_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_6_answer_c"
                 style="@style/AnswersMain"
                 android:text="@string/ques_6_answer_c" />
         </LinearLayout>
@@ -374,10 +420,12 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_6_answer_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_6_answer_d"
                 style="@style/AnswersMain"
                 android:text="@string/ques_6_answer_d" />
         </LinearLayout>
@@ -394,10 +442,12 @@
             android:paddingStart="8dp">
 
             <CheckBox
+                android:id="@+id/cb_ques_7_answer_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_7_answer_a"
                 style="@style/AnswersMain"
                 android:text="@string/ques_7_answer_a" />
         </LinearLayout>
@@ -408,10 +458,12 @@
             android:paddingStart="8dp">
 
             <CheckBox
+                android:id="@+id/cb_ques_7_answer_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_7_answer_b"
                 style="@style/AnswersMain"
                 android:text="@string/ques_7_answer_b" />
         </LinearLayout>
@@ -422,10 +474,12 @@
             android:paddingStart="8dp">
 
             <CheckBox
+                android:id="@+id/cb_ques_7_answer_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_7_answer_c"
                 style="@style/AnswersMain"
                 android:text="@string/ques_7_answer_c" />
         </LinearLayout>
@@ -436,10 +490,12 @@
             android:paddingStart="8dp">
 
             <CheckBox
+                android:id="@+id/cb_ques_7_answer_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
+                android:id="@+id/tv_ques_7_answer_d"
                 style="@style/AnswersMain"
                 android:text="@string/ques_7_answer_d" />
         </LinearLayout>
@@ -456,6 +512,7 @@
                 android:text="@string/ques_8" />
 
             <EditText
+                android:id="@+id/et_ques_8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="@string/enter_your_answer"
@@ -470,6 +527,7 @@
             android:text="@string/ques_9" />
 
         <EditText
+            android:id="@+id/et_ques_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/enter_your_answer"
@@ -477,6 +535,7 @@
 
         <!--The Submit button goes here-->
         <Button
+            android:id="@+id/bt_submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
