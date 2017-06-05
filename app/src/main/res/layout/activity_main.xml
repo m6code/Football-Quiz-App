@@ -70,9 +70,9 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_1_answer_d"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/rb_ques_1_answer_d"/>
+                android:layout_height="wrap_content" />
 
             <TextView
                 android:id="@+id/tv_ques_1_answer_d"
@@ -140,9 +140,9 @@
             android:paddingStart="8dp">
 
             <CheckBox
+                android:id="@+id/cb_ques_2_answer_d"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/cb_ques_2_answer_d"/>
+                android:layout_height="wrap_content" />
 
             <TextView
                 android:id="@+id/tv_ques_2_answer_d"
@@ -162,9 +162,9 @@
             android:paddingStart="8dp">
 
             <RadioButton
+                android:id="@+id/rb_ques_3_answer_a"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/rb_ques_3_answer_a"/>
+                android:layout_height="wrap_content" />
 
             <TextView
                 android:id="@+id/tv_ques_3_answer_a"

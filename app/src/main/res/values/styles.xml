@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="colorButtonNormal">@color/colorPrimary</item>
     </style>
-    
+
     <style name="QuesOption">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
