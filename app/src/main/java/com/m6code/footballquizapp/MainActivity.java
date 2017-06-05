@@ -685,7 +685,22 @@ public class MainActivity extends AppCompatActivity {
                 }// CODE FOR QUESTION 7 ENDS HERE
 
                 // CHECK IF QUESTION 8 IS CORRECT
-                
+                if (et_Ques8Answer.getText().toString().equals("Manchester United") || et_Ques8Answer.getText().toString().equals("manchester united")) {
+                    et_Ques8Answer.setTextColor(Color.GREEN);
+                    score = score + 1;
+                } else {
+                    et_Ques8Answer.setText("'Manchester United' is the correct answer");
+                    et_Ques8Answer.setTextColor(Color.GREEN);
+                }
+
+                // CHECK IF QUESTION 9 IS CORRECT
+                if (et_Ques9Answer.getText().toString().equals("1996")) {
+                    et_Ques9Answer.setTextColor(Color.GREEN);
+                    score = score + 1;
+                } else {
+                    et_Ques9Answer.setText("'1996' is the correct answer");
+                    et_Ques9Answer.setTextColor(Color.GREEN);
+                }
 
 
                 Toast.makeText(getApplicationContext(),"Your scored "+Integer.toString(score)+"/9",Toast.LENGTH_LONG).show();
