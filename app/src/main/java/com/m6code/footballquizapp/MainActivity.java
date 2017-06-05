@@ -4,8 +4,10 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,22 +16,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        questionOne();
-        //questionTwo();
-        questionThree();
-        questionFour();
-        questionFive();
-        questionSix();
-        //questionSeven();
-
-
-    }
-
-    /**
-     * Code for question on goes here
-     */
-    public void questionOne() {
-        //For the radio buttons
+        /**
+         * Question 1
+         */
         final RadioButton rb_Ques1AnswerA = (RadioButton) findViewById(R.id.rb_ques_1_answer_a);
         final RadioButton rb_Ques1AnswerB = (RadioButton) findViewById(R.id.rb_ques_1_answer_b);
         final RadioButton rb_Ques1AnswerC = (RadioButton) findViewById(R.id.rb_ques_1_answer_c);
@@ -112,10 +101,15 @@ public class MainActivity extends AppCompatActivity {
                 rb_Ques1AnswerC.setChecked(false);
             }
         });
-    }
 
-    public void questionThree(){
-        //For the radio buttons
+
+        /**
+         * Question 2
+         */
+
+        /**
+         * Question 3
+         */
         final RadioButton rb_Ques3AnswerA = (RadioButton) findViewById(R.id.rb_ques_3_answer_a);
         final RadioButton rb_Ques3AnswerB = (RadioButton) findViewById(R.id.rb_ques_3_answer_b);
         final RadioButton rb_Ques3AnswerC = (RadioButton) findViewById(R.id.rb_ques_3_answer_c);
@@ -198,9 +192,10 @@ public class MainActivity extends AppCompatActivity {
                 rb_Ques3AnswerC.setChecked(false);
             }
         });
-    }
 
-    public void questionFour(){
+        /**
+         * Question 4
+         */
         //For the radio buttons
         final RadioButton rb_Ques4AnswerA = (RadioButton) findViewById(R.id.rb_ques_4_answer_a);
         final RadioButton rb_Ques4AnswerB = (RadioButton) findViewById(R.id.rb_ques_4_answer_b);
@@ -284,9 +279,10 @@ public class MainActivity extends AppCompatActivity {
                 rb_Ques4AnswerC.setChecked(false);
             }
         });
-    }
 
-    public void questionFive(){
+        /**
+         * Question 5
+         */
         //For the radio buttons
         final RadioButton rb_Ques5AnswerA = (RadioButton) findViewById(R.id.rb_ques_5_answer_a);
         final RadioButton rb_Ques5AnswerB = (RadioButton) findViewById(R.id.rb_ques_5_answer_b);
@@ -370,9 +366,10 @@ public class MainActivity extends AppCompatActivity {
                 rb_Ques5AnswerC.setChecked(false);
             }
         });
-    }
 
-    public void questionSix(){
+        /**
+         * Question 6
+         */
         //For the radio buttons
         final RadioButton rb_Ques6AnswerA = (RadioButton) findViewById(R.id.rb_ques_6_answer_a);
         final RadioButton rb_Ques6AnswerB = (RadioButton) findViewById(R.id.rb_ques_6_answer_b);
@@ -456,5 +453,155 @@ public class MainActivity extends AppCompatActivity {
                 rb_Ques6AnswerC.setChecked(false);
             }
         });
+
+        /**
+         * Question 7
+         */
+
+        /**
+         * Question 8
+         */
+
+        /**
+         * Question 9
+         */
+        //questionSeven();
+
+        /**
+         * Submit all button
+         */
+
+        Button btSubmitAll = (Button)findViewById(R.id.bt_submit);
+
+        btSubmitAll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int score = 0; // to track correct and incorrect answers
+                /**
+                 * CHECK IF QUESTION 1 IS CORRECT
+                 */
+                if (rb_Ques1AnswerB.isChecked()==true){
+
+                    // set the correct option to be green
+                    tv_Ques1AnswerB.setTextColor(Color.GREEN);
+
+                    //Set the text color of others to be red
+                    tv_Ques1AnswerA.setTextColor(Color.RED);
+                    tv_Ques1AnswerC.setTextColor(Color.RED);
+                    tv_Ques1AnswerD.setTextColor(Color.RED);
+
+                    score = score + 1;
+                }
+                else{
+                    tv_Ques1AnswerB.setTextColor(Color.GREEN);
+
+                    //Set the text color of others to be red
+                    tv_Ques1AnswerA.setTextColor(Color.RED);
+                    tv_Ques1AnswerC.setTextColor(Color.RED);
+                    tv_Ques1AnswerD.setTextColor(Color.RED);
+                } // CODE FOR QUESTION 1 ENDS HERE
+
+                /**
+                 * CHECK IF QUESTION 3 IS CORRECT
+                 */
+                if (rb_Ques3AnswerC.isChecked()==true){
+
+                    // set the correct option to be green
+                    tv_Ques3AnswerC.setTextColor(Color.GREEN);
+
+                    //Set the text color of others to be red
+                    tv_Ques3AnswerA.setTextColor(Color.RED);
+                    tv_Ques3AnswerB.setTextColor(Color.RED);
+                    tv_Ques3AnswerD.setTextColor(Color.RED);
+                    score = score + 1;
+                }
+                else{
+                    tv_Ques3AnswerC.setTextColor(Color.GREEN);
+
+                    //Set the text color of others to be red
+                    tv_Ques3AnswerA.setTextColor(Color.RED);
+                    tv_Ques3AnswerB.setTextColor(Color.RED);
+                    tv_Ques3AnswerD.setTextColor(Color.RED);
+                } // CODE FOR QUESTION 3 ENDS HERE
+
+                /**
+                 * CHECK IF QUESTION 4 IS CORRECT
+                 */
+                if (rb_Ques4AnswerA.isChecked()==true){
+
+                    // set the correct option to be green
+                    tv_Ques4AnswerA.setTextColor(Color.GREEN);
+
+                    //Set the text color of others to be red
+                    tv_Ques4AnswerB.setTextColor(Color.RED);
+                    tv_Ques4AnswerC.setTextColor(Color.RED);
+                    tv_Ques4AnswerD.setTextColor(Color.RED);
+                    score = score + 1;
+                }
+                else{
+                    // set the correct option to be green
+                    tv_Ques4AnswerA.setTextColor(Color.GREEN);
+
+                    //Set the text color of others to be red
+                    tv_Ques4AnswerB.setTextColor(Color.RED);
+                    tv_Ques4AnswerC.setTextColor(Color.RED);
+                    tv_Ques4AnswerD.setTextColor(Color.RED);
+                } // CODE FOR QUESTION 4 ENDS HERE
+
+                /**
+                 * CHECK IF QUESTION 5 IS CORRECT
+                 */
+                if (rb_Ques5AnswerD.isChecked()==true){
+
+                    // set the correct option to be green
+                    tv_Ques5AnswerD.setTextColor(Color.GREEN);
+
+                    //Set the text color of others to be red
+                    tv_Ques5AnswerA.setTextColor(Color.RED);
+                    tv_Ques5AnswerB.setTextColor(Color.RED);
+                    tv_Ques5AnswerC.setTextColor(Color.RED);
+                    score = score + 1;
+                }
+                else{
+                    // set the correct option to be green
+                    tv_Ques5AnswerD.setTextColor(Color.GREEN);
+
+                    //Set the text color of others to be red
+                    tv_Ques5AnswerA.setTextColor(Color.RED);
+                    tv_Ques5AnswerB.setTextColor(Color.RED);
+                    tv_Ques5AnswerC.setTextColor(Color.RED);
+                } // CODE FOR QUESTION 5 ENDS HERE
+
+                /**
+                 * CHECK IF QUESTION 6 IS CORRECT
+                 */
+                if (rb_Ques6AnswerA.isChecked()==true){
+
+                    // set the correct option to be green
+                    tv_Ques6AnswerA.setTextColor(Color.GREEN);
+
+                    //Set the text color of others to be red
+                    tv_Ques6AnswerB.setTextColor(Color.RED);
+                    tv_Ques6AnswerC.setTextColor(Color.RED);
+                    tv_Ques6AnswerD.setTextColor(Color.RED);
+                    score = score + 1;
+                }
+                else{
+                    // set the correct option to be green
+                    tv_Ques6AnswerA.setTextColor(Color.GREEN);
+
+                    //Set the text color of others to be red
+                    tv_Ques6AnswerB.setTextColor(Color.RED);
+                    tv_Ques6AnswerC.setTextColor(Color.RED);
+                    tv_Ques6AnswerD.setTextColor(Color.RED);
+                } // CODE FOR QUESTION 6 ENDS HERE
+
+
+                Toast.makeText(getApplicationContext(),"Your scored "+Integer.toString(score)+"/9",Toast.LENGTH_LONG).show();
+            }
+        });
+
+
     }
+
 }
