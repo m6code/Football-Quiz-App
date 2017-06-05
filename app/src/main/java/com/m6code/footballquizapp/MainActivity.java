@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -106,6 +108,15 @@ public class MainActivity extends AppCompatActivity {
         /**
          * Question 2
          */
+        final CheckBox cb_Ques2AnswerA = (CheckBox) findViewById(R.id.cb_ques_2_answer_a);
+        final CheckBox cb_Ques2AnswerB = (CheckBox) findViewById(R.id.cb_ques_2_answer_b);
+        final CheckBox cb_Ques2AnswerC = (CheckBox) findViewById(R.id.cb_ques_2_answer_c);
+        final CheckBox cb_Ques2AnswerD = (CheckBox) findViewById(R.id.cb_ques_2_answer_d);
+
+        final TextView tv_Ques2AnswerA = (TextView) findViewById(R.id.tv_ques_2_answer_a);
+        final TextView tv_Ques2AnswerB = (TextView) findViewById(R.id.tv_ques_2_answer_b);
+        final TextView tv_Ques2AnswerC = (TextView) findViewById(R.id.tv_ques_2_answer_c);
+        final TextView tv_Ques2AnswerD = (TextView) findViewById(R.id.tv_ques_2_answer_d);
 
         /**
          * Question 3
@@ -457,14 +468,25 @@ public class MainActivity extends AppCompatActivity {
         /**
          * Question 7
          */
+        final CheckBox cb_Ques7AnswerA = (CheckBox) findViewById(R.id.cb_ques_7_answer_a);
+        final CheckBox cb_Ques7AnswerB = (CheckBox) findViewById(R.id.cb_ques_7_answer_b);
+        final CheckBox cb_Ques7AnswerC = (CheckBox) findViewById(R.id.cb_ques_7_answer_c);
+        final CheckBox cb_Ques7AnswerD = (CheckBox) findViewById(R.id.cb_ques_7_answer_d);
+
+        final TextView tv_Ques7AnswerA = (TextView) findViewById(R.id.tv_ques_7_answer_a);
+        final TextView tv_Ques7AnswerB = (TextView) findViewById(R.id.tv_ques_7_answer_b);
+        final TextView tv_Ques7AnswerC = (TextView) findViewById(R.id.tv_ques_7_answer_c);
+        final TextView tv_Ques7AnswerD = (TextView) findViewById(R.id.tv_ques_7_answer_d);
 
         /**
-         * Question 8
+         * Ques tion 8
          */
+        final EditText et_Ques8Answer = (EditText) findViewById(R.id.et_ques_8);
 
         /**
          * Question 9
          */
+        final EditText et_Ques9Answer = (EditText) findViewById(R.id.et_ques_9);
         //questionSeven();
 
         /**
@@ -480,7 +502,7 @@ public class MainActivity extends AppCompatActivity {
                 /**
                  * CHECK IF QUESTION 1 IS CORRECT
                  */
-                if (rb_Ques1AnswerB.isChecked()==true){
+                if (rb_Ques1AnswerB.isChecked()){
 
                     // set the correct option to be green
                     tv_Ques1AnswerB.setTextColor(Color.GREEN);
@@ -502,9 +524,42 @@ public class MainActivity extends AppCompatActivity {
                 } // CODE FOR QUESTION 1 ENDS HERE
 
                 /**
+                 * CHECK IF QUESTION 2 IS CORRECT
+                 */
+                if ((cb_Ques2AnswerA.isChecked() && cb_Ques2AnswerD.isChecked())
+                        && (!cb_Ques2AnswerC.isChecked() && !cb_Ques2AnswerB.isChecked())){
+                    // set the correct option to be green
+                    tv_Ques2AnswerA.setTextColor(Color.GREEN);
+                    tv_Ques2AnswerD.setTextColor(Color.GREEN);
+
+                    //Set the text color of others to be red
+                    tv_Ques2AnswerB.setTextColor(Color.RED);
+                    tv_Ques2AnswerC.setTextColor(Color.RED);
+                    score = score + 1;
+                }
+                else if (cb_Ques2AnswerB.isChecked() || cb_Ques2AnswerC.isChecked()){
+                    // set the correct option to be green
+                    tv_Ques2AnswerA.setTextColor(Color.GREEN);
+                    tv_Ques2AnswerD.setTextColor(Color.GREEN);
+
+                    //Set the text color of others to be red
+                    tv_Ques2AnswerB.setTextColor(Color.RED);
+                    tv_Ques2AnswerC.setTextColor(Color.RED);
+                }
+                else{
+                    // set the correct option to be green
+                    tv_Ques2AnswerA.setTextColor(Color.GREEN);
+                    tv_Ques2AnswerD.setTextColor(Color.GREEN);
+
+                    //Set the text color of others to be red
+                    tv_Ques2AnswerB.setTextColor(Color.RED);
+                    tv_Ques2AnswerC.setTextColor(Color.RED);
+                }// CODE FOR QUESTION 2 ENDS HERE
+
+                /**
                  * CHECK IF QUESTION 3 IS CORRECT
                  */
-                if (rb_Ques3AnswerC.isChecked()==true){
+                if (rb_Ques3AnswerC.isChecked()){
 
                     // set the correct option to be green
                     tv_Ques3AnswerC.setTextColor(Color.GREEN);
@@ -527,7 +582,7 @@ public class MainActivity extends AppCompatActivity {
                 /**
                  * CHECK IF QUESTION 4 IS CORRECT
                  */
-                if (rb_Ques4AnswerA.isChecked()==true){
+                if (rb_Ques4AnswerA.isChecked()){
 
                     // set the correct option to be green
                     tv_Ques4AnswerA.setTextColor(Color.GREEN);
@@ -551,7 +606,7 @@ public class MainActivity extends AppCompatActivity {
                 /**
                  * CHECK IF QUESTION 5 IS CORRECT
                  */
-                if (rb_Ques5AnswerD.isChecked()==true){
+                if (rb_Ques5AnswerD.isChecked()){
 
                     // set the correct option to be green
                     tv_Ques5AnswerD.setTextColor(Color.GREEN);
@@ -575,7 +630,7 @@ public class MainActivity extends AppCompatActivity {
                 /**
                  * CHECK IF QUESTION 6 IS CORRECT
                  */
-                if (rb_Ques6AnswerA.isChecked()==true){
+                if (rb_Ques6AnswerA.isChecked()){
 
                     // set the correct option to be green
                     tv_Ques6AnswerA.setTextColor(Color.GREEN);
@@ -595,6 +650,42 @@ public class MainActivity extends AppCompatActivity {
                     tv_Ques6AnswerC.setTextColor(Color.RED);
                     tv_Ques6AnswerD.setTextColor(Color.RED);
                 } // CODE FOR QUESTION 6 ENDS HERE
+
+                /**
+                 * CHECK IF QUESTION 7 IS CORRECT
+                 */
+                if ((cb_Ques7AnswerC.isChecked() && cb_Ques7AnswerD.isChecked())
+                        && (!cb_Ques7AnswerA.isChecked() && !cb_Ques7AnswerB.isChecked())){
+                    // set the correct option to be green
+                    tv_Ques7AnswerC.setTextColor(Color.GREEN);
+                    tv_Ques7AnswerD.setTextColor(Color.GREEN);
+
+                    //Set the text color of others to be red
+                    tv_Ques7AnswerA.setTextColor(Color.RED);
+                    tv_Ques7AnswerB.setTextColor(Color.RED);
+                    score = score + 1;
+                }
+                else if (cb_Ques7AnswerA.isChecked() || cb_Ques7AnswerB.isChecked()){
+                    // set the correct option to be green
+                    tv_Ques7AnswerC.setTextColor(Color.GREEN);
+                    tv_Ques7AnswerD.setTextColor(Color.GREEN);
+
+                    //Set the text color of others to be red
+                    tv_Ques7AnswerA.setTextColor(Color.RED);
+                    tv_Ques7AnswerB.setTextColor(Color.RED);
+                }
+                else{
+                    // set the correct option to be green
+                    tv_Ques7AnswerC.setTextColor(Color.GREEN);
+                    tv_Ques7AnswerD.setTextColor(Color.GREEN);
+
+                    //Set the text color of others to be red
+                    tv_Ques7AnswerA.setTextColor(Color.RED);
+                    tv_Ques7AnswerB.setTextColor(Color.RED);
+                }// CODE FOR QUESTION 7 ENDS HERE
+
+                // CHECK IF QUESTION 8 IS CORRECT
+                
 
 
                 Toast.makeText(getApplicationContext(),"Your scored "+Integer.toString(score)+"/9",Toast.LENGTH_LONG).show();
